@@ -1,0 +1,12 @@
+Package: bayespCR
+Type: Package
+Title: Bayesian pCR Estimation for Phase II/III Neo/Adjuvant TNBC Trial
+Version: 0.1.0
+Author: Ennan Gu
+Maintainer: Ennan Gu <egu@email.sc.edu>
+Description: A R package to estimate Bayesian pCR difference for Phase II/III Neo/Adjuvant TNBC Trial, target HR and posterior probability need to be specified.
+License: GPL-2
+Depends: survival,stats,simsurv,crayon
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
