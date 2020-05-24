@@ -21,6 +21,7 @@
 pCR_est<- function(alpha,mu2_hr,cri,tau,nboot){
 
   call<- match.call()
+  cat(silver("prior correlation not specified, default=-0.8  \n"))
   if(missing(alpha)){alpha=0.05;cat(silver("Note: alpha not specified, default=0.05 \n"))}
   if(missing(mu2_hr)){mu2_hr=0.71;cat(silver("Note: prior of HR not specified, default=0.7 \n"))}
   if(missing(cri)){cri=0.7;cat(silver("Note: HR target not specified, default=0.7 \n"))}
